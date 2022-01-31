@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form action="" method="get">
+        <fieldset>
+            <label for="name">Nome: </label>
+            <input type="text" name="name" id="" required maxlength="40">
+            <br>
+            <label for="email">Email: </label>
+            <input type="text" name="email" id="" required maxlength="50">
+            <br>
+            <label for="endereco">Endereco: </label>
+            <input type="text" name="endereco" id="" required maxlength="200">
+            <br>
+            <label for="cidade">Cidade: </label>
+            <input type="text" name="cidade" id="" required maxlength="28">
+            <br>
+            <label for="estado">Estado: </label>
+            <select name="estado" id="" required>
+                <option value="sp">sp</option>
+            </select>
+            <br>
+            <label for="complemento">Complemento: </label>
+            <input type="radio" name="complemento" id="" required>casa
+            <input type="radio" name="complemento" id="">apartamento
+        </fieldset>
+        <fieldset>
+            <textarea name="resumo" id="" cols="30" rows="10" maxlength="1000" required>Resumo do curriculo</textarea>
+            <br>
+            <label for="cargo">Cargo: </label>
+            <input type="text" name="cargo" id="" maxlength="40" required>
+            <br>
+            <label for="descCargo">Descricao do cargo: </label>
+            <input type="text" name="descCargo" id="" maxlength="500" required>
+            <br>
+            <label for="dataInicio">Data de Inicio</label>
+            <input type="text" name="dataInicio" id="">
+        </fieldset>
+        <button type="submit">Enviar</button>
+    </form>
+    
+</body>
+</html>
